@@ -1,0 +1,97 @@
+= IntelliJ Dojo Lab Book
+Daniel Hinojosa
+:source-highlighter: pygments
+:pygments-style: friendly
+:icons: font
+:imagesdir: ./images
+:project-name: advanced_java
+:star: *
+:starline: *_
+:starstar: **
+:underscore: _
+:toc: left
+:backend: revealjs
+:customcss: custom.css
+:topic: state=title
+:icons: font
+
+
+== Lab ?: Tool Windows without your mouse
+
+. Your instructor will be barking orders at you.
+. Open the windows that will be said, be quick, be sure, about it
+. Run `mvn compile` quickly, it should be broken
+
+== Lab ?: Find your file without your mouse
+
+. Your instructor will be barking orders at you.
+. Locate files quickly, and bring them up quickly, ready for you to edit
+
+== Lab ?: Find the Errors
+
+. Fix the errors that you found in the file...
+
+== Lab ?: Create the files quickly without your mouse and efficiently
+
+. Be sure to use *ALT+INSERT* or *CMD+N*
+. Now we will create a Java class, a standard POJO
+. Create a package, `com.abccorp`
+. Create a class called `Team`
+. Create attributes for `name`, `wins`, `loss`
+. Create getters for the attributes
+. Create `toString`, `equals`, `hashCode`
+. Format your code and optimize your imports
+
+== Lab ?: Using the blob!
+
+. Find the file ....
+. Go to the method ....
+. Highlight only the text ... using increase code selection
+. Now use surround block or selection, and wrap it in a try block
+
+== Lab ?: Go to Implementations and Usages
+
+== Lab ?: Moving Code
+
+== Lab ?: Documentation and Info
+
+. Go to Maven Tool
+. Go to 
+
+== Lab ?: Efficient Running and Testing
+
+. Run the main method in ...
+. Run the test method
+. Run the test class
+. Run the test package
+. Run all the tests
+
+== Lab ?: Toggling your Test
+
+== Lab ?: Debugging
+
+. Debugging Streams
+
+== Lab ?: Refactoring
+
+. Highlight the lines in the method ...
+. Extract it to a new method
+.
+== Lab ?: Advanced Refactoring
+
+. Move that method to a class
+. Use the *Make Static* refactoring
+
+== Lab ?: Hey Emmitt!
+
+
+== Lab 8: Advanced Cursor Management
+
+.Column Mode
+.Multicursors
+
+== Lab 9: Live Templates
+
+. Create a Live template for yourself
+. 
+Credit to Ted Young for this wonderful project, https://github.com/tedyoung and https://moretestable.com
