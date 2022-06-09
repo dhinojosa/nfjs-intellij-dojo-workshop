@@ -15,7 +15,6 @@ Daniel Hinojosa
 :topic: state=title
 :icons: font
 
-
 == Lab ?: Tool Windows without your mouse
 
 . Your instructor will be barking orders at you.
