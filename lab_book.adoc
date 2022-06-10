@@ -15,57 +15,81 @@ Daniel Hinojosa
 :topic: state=title
 :icons: font
 
+Make it fun
+
 == Lab ?: Tool Windows without your mouse
 
-. Your instructor will be barking orders at you.
 . Open the windows that will be said, be quick, be sure, about it
-. Run `mvn compile` quickly, it should be broken
+. Run `mvn compile` quickly, both by going to the Maven tool window and selecting *compile*
+. Close all windows
+. Close all the tabs through, *Shift+Shift* or *CMD+SHIFT+A*
+. Open `Deck` using *CMD+SHIFT+O*
+. Maximize the editor
+. Run `mvn test` using `Run Anything` using *Ctrl+Ctrl*
 
 == Lab ?: Find your file without your mouse
 
-. Your instructor will be barking orders at you.
+. Use "Find Action" to run "Close All Tabs"
 . Locate files quickly, and bring them up quickly, ready for you to edit
+. Use "Find In File" to find `game.initialDeal`
+. Use "Go to Class" to find Deck
 
 == Lab ?: Find the Errors
-
-. Fix the errors that you found in the file...
+. Go to `DeckTest`
+. Find all minor errors quickly
+. Fix them using option-enter, alt-enter
+. Fix the errors that you found in the file
 
 == Lab ?: Create the files quickly without your mouse and efficiently
 
 . Be sure to use *ALT+INSERT* or *CMD+N*
-. Now we will create a Java class, a standard POJO
-. Create a package, `com.abccorp`
-. Create a class called `Team`
-. Create attributes for `name`, `wins`, `loss`
-. Create getters for the attributes
-. Create `toString`, `equals`, `hashCode`
-. Format your code and optimize your imports
-
+. Now we will create a Java class in the `com/jitterted/ebp/blackjack` called ``
+. 
 == Lab ?: Using the blob!
 
-. Find the file ....
-. Go to the method ....
-. Highlight only the text ... using increase code selection
-. Now use surround block or selection, and wrap it in a try block
+. Find the file `Game.java`
+. Go to the method `main`
+. Highlight only the text `System.console().readLine() using increase code selection
+. Now use surround block on the selection, and wrap it in a try/catch/finally block that will catch an `IOError` and print the message
 
 == Lab ?: Go to Implementations and Usages
 
+. Go to `Deck` and then go to the `size` method
+. Which other methods are using this method? Use CMD+B or OPT+F7
+. Jump to one of the methods that uses `size`
+. Go to `Game` and then go the constructor of `Game`, from here go to the implementation of `Deck`
+
 == Lab ?: Moving Code
+
+. Make `main` the last method and move it above `main`
 
 == Lab ?: Documentation and Info
 
-. Go to Maven Tool
-. Go to 
+. Go to Maven Tool and "Download Sources and/or Documentation", you'll need to use the mouse
+. Dismiss the Maven Tool Window
+. Using "Find Symbol" go to `displayFinalGameState`. What is the type of `dealerHand`?
+. Go to `displayHand` using whatever maneuver you like, put your cursor over `joining`, what is the documentation for this method?
+. What is the type of `Collectors.joining( ansi().cursorUp(6).cursorRight(1).toString())`
 
 == Lab ?: Efficient Running and Testing
 
-. Run the main method in ...
-. Run the test method
-. Run the test class
-. Run the test package
-. Run all the tests
+. Run the main method in `Game` using the keyboard
+. Open `CardTest` and run `withValueOfQueenHasNumericValueOf10` only
+. Go to the `Card` class
+. Run `withValueOfQueenHasNumericValueOf10` but don't go back to the `CardTest`!
+. Open `CardTest` and run `withValueOfQueenHasNumericValueOf10` and `withNumberCardHasNumericValueOfTheNumber` only
+. Open `Game`, use recent files to go back to the game
+. Run the same two tests we just did without going back to `CardTest`
+. Run all the tests in `CardTest`
+. Run all the tests in the `com.jitterted.ebp.blackjack`
 
 == Lab ?: Toggling your Test
+
+. Go to `Card` using the toggle
+. Go back to `CardTest`
+. Go back to `Card`
+. Create a test called `WalletTest`, remember *CMD+N*?
+. Create a test called `walletHasZeroBalance` and create a `Wallet`
 
 == Lab ?: Debugging
 
@@ -75,7 +99,8 @@ Daniel Hinojosa
 
 . Highlight the lines in the method ...
 . Extract it to a new method
-.
+. 
+
 == Lab ?: Advanced Refactoring
 
 . Move that method to a class
@@ -83,6 +108,8 @@ Daniel Hinojosa
 
 == Lab ?: Hey Emmitt!
 
+. Create a resources folder in `src/main` and add a file called _index.html_
+.
 
 == Lab 8: Advanced Cursor Management
 
@@ -92,5 +119,10 @@ Daniel Hinojosa
 == Lab 9: Live Templates
 
 . Create a Live template for yourself
-. 
+.
+
+== Lab 10: Smart Autocompletion
+
+
+
 Credit to Ted Young for this wonderful project, https://github.com/tedyoung and https://moretestable.com
