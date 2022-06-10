@@ -17,53 +17,58 @@ Daniel Hinojosa
 
 Make it fun
 
-== Lab ?: Tool Windows without your mouse
+== Lab 1: Tool Windows without your mouse
 
 . Open the windows that will be said, be quick, be sure, about it
 . Run `mvn compile` quickly, both by going to the Maven tool window and selecting *compile*
-. Close all windows
+. Close all tool windows
 . Close all the tabs through, *Shift+Shift* or *CMD+SHIFT+A*
 . Open `Deck` using *CMD+SHIFT+O*
 . Maximize the editor
 . Run `mvn test` using `Run Anything` using *Ctrl+Ctrl*
 
-== Lab ?: Find your file without your mouse
+== Lab 2: Find your file without your mouse
 
 . Use "Find Action" to run "Close All Tabs"
 . Locate files quickly, and bring them up quickly, ready for you to edit
 . Use "Find In File" to find `game.initialDeal`
 . Use "Go to Class" to find Deck
 
-== Lab ?: Find the Errors
+== Lab 3: Find the Errors
+
 . Go to `DeckTest`
 . Find all minor errors quickly
 . Fix them using option-enter, alt-enter
 . Fix the errors that you found in the file
 
-== Lab ?: Create the files quickly without your mouse and efficiently
+== Lab 4: Create the files quickly without your mouse and efficiently
 
 . Be sure to use *ALT+INSERT* or *CMD+N*
-. Now we will create a Java class in the `com/jitterted/ebp/blackjack` called ``
-. 
-== Lab ?: Using the blob!
+. Create an enum in  `com/jitterted/ebp/blackjack` called `Currency` with the values Dollar, and Euro, for a challenge add the symbol
+. Now we will create a Java class in the `com/jitterted/ebp/blackjack` called `Chip`
+. Create two fields, one `amount` of type `int`, and `currency` of type currency
+. Add a toString, equals, and hashcode for Chip
+
+== Lab 5: Using the blob!
 
 . Find the file `Game.java`
 . Go to the method `main`
 . Highlight only the text `System.console().readLine() using increase code selection
 . Now use surround block on the selection, and wrap it in a try/catch/finally block that will catch an `IOError` and print the message
 
-== Lab ?: Go to Implementations and Usages
+== Lab 6: Go to Implementations and Usages
 
 . Go to `Deck` and then go to the `size` method
 . Which other methods are using this method? Use CMD+B or OPT+F7
 . Jump to one of the methods that uses `size`
 . Go to `Game` and then go the constructor of `Game`, from here go to the implementation of `Deck`
 
-== Lab ?: Moving Code
+== Lab 7: Moving Code
 
 . Make `main` the last method and move it above `main`
+. Rearrange the other methods to your liking
 
-== Lab ?: Documentation and Info
+== Lab 8: Documentation and Info
 
 . Go to Maven Tool and "Download Sources and/or Documentation", you'll need to use the mouse
 . Dismiss the Maven Tool Window
@@ -71,7 +76,7 @@ Make it fun
 . Go to `displayHand` using whatever maneuver you like, put your cursor over `joining`, what is the documentation for this method?
 . What is the type of `Collectors.joining( ansi().cursorUp(6).cursorRight(1).toString())`
 
-== Lab ?: Efficient Running and Testing
+== Lab 9: Efficient Running and Testing
 
 . Run the main method in `Game` using the keyboard
 . Open `CardTest` and run `withValueOfQueenHasNumericValueOf10` only
@@ -83,7 +88,7 @@ Make it fun
 . Run all the tests in `CardTest`
 . Run all the tests in the `com.jitterted.ebp.blackjack`
 
-== Lab ?: Toggling your Test
+== Lab 10: Toggling your Test
 
 . Go to `Card` using the toggle
 . Go back to `CardTest`
@@ -91,23 +96,38 @@ Make it fun
 . Create a test called `WalletTest`, remember *CMD+N*?
 . Create a test called `walletHasZeroBalance` and create a `Wallet`
 
-== Lab ?: Debugging
+== Lab 11: Debugging
 
-. Debugging Streams
+. Go to `HandValueAceTest` and the `handWithOneAce` method
+. Put a breakpoint on the `assertThat(game.handValueOf(cards)).isEqualTo(11 + 5);`*CMD+F8*
+. Debug the method *CTRL+SHIFT+D*, what are the contents of cards?
+. Stop the debugging session
+. Remove the breakpoint
 
-== Lab ?: Refactoring
+. Go to `displayHand` in the most efficient way possible
+. Toggle the breakpoint in on the `map` call
+. Run the Debugger
+. Turn on the Stream Debugger
+. View the Stream Debugger
 
-. Highlight the lines in the method ...
-. Extract it to a new method
-. 
+== Lab 12: Refactoring
 
-== Lab ?: Advanced Refactoring
+. Go to initial deal method in main
+. Highlight the lines the first round of cards into a method call dealRound in the method using the blob
+. Make it so that the it is called twice
+. Extract another method in the first part of the main method from `AnsiConsole.systemInstall()` to `Hit Enter to Start` and create a method called display welcome screen 
+. View Demo on Refactoring Rank, do the same for Suit!
+
+== Lab 13: Advanced Refactoring
 
 . Move that method to a class
 . Use the *Make Static* refactoring
+. Static Manuevering to class
+. Create a display game, attempt to perform some refactoring for game and move everything that should be in game
 
-== Lab ?: Hey Emmitt!
+== Lab 14: Hey Emmett!
 
+. Open the Emmett cheatsheet: https://docs.emmet.io/cheat-sheet/
 . Create a resources folder in `src/main` and add a file called _index.html_
 . Create an HTML template using !
 . Create a <p> with the content "Favorite Food" follow by an unordered list with 5 li items in whatever format you like listing some of your favorite foods
@@ -115,18 +135,10 @@ Make it fun
 . Find other creative Emmet combinations
 . Try your hand at styles by creating styles.css
 
-== Lab 8: Advanced Cursor Management
-
-.Column Mode
-.Multicursors
-
-== Lab 9: Live Templates
+== Lab 15: Live Templates
 
 . Create a Live template for yourself
-.
-
-== Lab 10: Smart Autocompletion
-
-
+. Are there some classes that you create? Perhaps a standard way to do log files?
+. How about a fixed thread pool? ExecutorService ec = Executors.newFixedThreadPool(10);
 
 Credit to Ted Young for this wonderful project, https://github.com/tedyoung and https://moretestable.com
