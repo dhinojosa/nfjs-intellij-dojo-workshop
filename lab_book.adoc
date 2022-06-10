@@ -109,7 +109,11 @@ Make it fun
 == Lab ?: Hey Emmitt!
 
 . Create a resources folder in `src/main` and add a file called _index.html_
-.
+. Create an HTML template using !
+. Create a <p> with the content "Favorite Food" follow by an unordered list with 5 li items in whatever format you like listing some of your favorite foods
+. Try different combinations
+. Find other creative Emmet combinations
+. Try your hand at styles by creating styles.css
 
 == Lab 8: Advanced Cursor Management
 
