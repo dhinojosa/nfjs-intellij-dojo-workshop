@@ -20,10 +20,10 @@ Daniel Hinojosa
 
 . Open the *Project* tool, Close the *Project* Tool
 . Open the *Run* tool, keep it open. Go to the Editor, remember kbd:[ESC]!
+. Maximize the editor (kbd:[⌘+⇧+F12]image:../images/apple.png[width=25px, height=25px] / kbd:[CTRL+SHIFT+F12] image:../images/windows.png[width=25px, height=25px])
 . Run `mvn compile` quickly, both by going to the Maven tool window kbd:[⌘+E] image:../images/apple.png[width=25px, height=25px]/ kbd:[CTRL+E]/image:../images/windows.png[width=25px, height=25px], select the *Maven* tool, and select *compile*
 . Close all tool windows
 . Close all the tabs through either kbd:[Shift+Shift] or (kbd:[⌘+⇧+A]image:../images/apple.png[width=25px, height=25px] / kbd:[CTRL+SHIFT+A] image:../images/windows.png[width=25px, height=25px])
-. Maximize the editor (kbd:[⌘+⇧+F12]image:../images/apple.png[width=25px, height=25px] / kbd:[CTRL+SHIFT+F12] image:../images/windows.png[width=25px, height=25px])
 . Run `mvn test` using `Run Anything` using kbd:[Ctrl+Ctrl]
 
 == Lab 2: Find your file without your mouse
