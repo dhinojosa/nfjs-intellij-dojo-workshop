@@ -458,9 +458,8 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <li><a href="#_lab_10_toggling_your_test">Lab 10: Toggling your Test</a></li>
 <li><a href="#_lab_11_debugging">Lab 11: Debugging</a></li>
 <li><a href="#_lab_12_refactoring">Lab 12: Refactoring</a></li>
-<li><a href="#_lab_13_advanced_refactoring">Lab 13: Advanced Refactoring</a></li>
-<li><a href="#_lab_14_hey_emmett">Lab 14: Hey Emmett!</a></li>
-<li><a href="#_lab_15_live_templates">Lab 15: Live Templates</a></li>
+<li><a href="#_lab_13_hey_emmett">Lab 13: Hey Emmett!</a></li>
+<li><a href="#_lab_14_live_templates">Lab 14: Live Templates</a></li>
 </ul>
 </div>
 </div>
@@ -477,16 +476,16 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <p>Open the <strong>Run</strong> tool, keep it open. Go to the Editor, remember <kbd>ESC</kbd>!</p>
 </li>
 <li>
-<p>Maximize the editor (<span class="keyseq"><kbd>⌘</kbd>+<kbd>⇧</kbd>+<kbd>F12</kbd></span><span class="image"><img src="./images/apple.png" alt="apple" width="25px" height="25px"></span> / <span class="keyseq"><kbd>CTRL</kbd>+<kbd>SHIFT</kbd>+<kbd>F12</kbd></span> <span class="image"><img src="./images/windows.png" alt="windows" width="25px" height="25px"></span>)</p>
+<p>Maximize the editor (<span class="keyseq"><kbd>⌘</kbd>+<kbd>⇧</kbd>+<kbd>F12</kbd></span><span class="image"><img src="./images/apple.png" alt="apple" width="25px" height="25px"></span> / <span class="keyseq"><kbd>CTRL</kbd>+<kbd>SHIFT</kbd>+<kbd>F12</kbd></span> <span class="image"><img src="./images/windows.png" alt="windows" width="25px" height="25px"></span><span class="image"><img src="./images/linux.png" alt="linux" width="25px" height="25px"></span>)</p>
 </li>
 <li>
-<p>Run <code>mvn compile</code> quickly, both by going to the Maven tool window <span class="keyseq"><kbd>⌘</kbd>+<kbd>E</kbd></span> <span class="image"><img src="./images/apple.png" alt="apple" width="25px" height="25px"></span>/ <span class="keyseq"><kbd>CTRL</kbd>+<kbd>E</kbd></span>/<span class="image"><img src="./images/windows.png" alt="windows" width="25px" height="25px"></span>, select the <strong>Maven</strong> tool, and select <strong>compile</strong></p>
+<p>Run <code>mvn compile</code> quickly, both by going to the Maven tool window <span class="keyseq"><kbd>⌘</kbd>+<kbd>E</kbd></span> <span class="image"><img src="./images/apple.png" alt="apple" width="25px" height="25px"></span>/ <span class="keyseq"><kbd>CTRL</kbd>+<kbd>E</kbd></span>/<span class="image"><img src="./images/windows.png" alt="windows" width="25px" height="25px"></span><span class="image"><img src="./images/linux.png" alt="linux" width="25px" height="25px"></span> , select the <strong>Maven</strong> tool, and select <strong>compile</strong></p>
 </li>
 <li>
 <p>Close all tool windows</p>
 </li>
 <li>
-<p>Close all the tabs through either <span class="keyseq"><kbd>Shift</kbd>+<kbd>Shift</kbd></span> or (<span class="keyseq"><kbd>⌘</kbd>+<kbd>⇧</kbd>+<kbd>A</kbd></span><span class="image"><img src="./images/apple.png" alt="apple" width="25px" height="25px"></span> / <span class="keyseq"><kbd>CTRL</kbd>+<kbd>SHIFT</kbd>+<kbd>A</kbd></span> <span class="image"><img src="./images/windows.png" alt="windows" width="25px" height="25px"></span>)</p>
+<p>Close all the tabs through either <span class="keyseq"><kbd>Shift</kbd>+<kbd>Shift</kbd></span> or (<span class="keyseq"><kbd>⌘</kbd>+<kbd>⇧</kbd>+<kbd>A</kbd></span><span class="image"><img src="./images/apple.png" alt="apple" width="25px" height="25px"></span> / <span class="keyseq"><kbd>CTRL</kbd>+<kbd>SHIFT</kbd>+<kbd>A</kbd></span> <span class="image"><img src="./images/windows.png" alt="windows" width="25px" height="25px"></span><span class="image"><img src="./images/linux.png" alt="linux" width="25px" height="25px"></span> )</p>
 </li>
 <li>
 <p>Run <code>mvn test</code> using <code>Run Anything</code> using <span class="keyseq"><kbd>Ctrl</kbd>+<kbd>Ctrl</kbd></span></p>
@@ -501,16 +500,16 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div class="olist arabic">
 <ol class="arabic">
 <li>
-<p>Use "Find Action" (<span class="keyseq"><kbd>⌘</kbd>+<kbd>⇧</kbd>+<kbd>A</kbd></span><span class="image"><img src="./images/apple.png" alt="apple" width="25px" height="25px"></span> / <span class="keyseq"><kbd>CTRL</kbd>+<kbd>SHIFT</kbd>+<kbd>A</kbd></span> <span class="image"><img src="./images/windows.png" alt="windows" width="25px" height="25px"></span>) to run "Close All Tabs"</p>
+<p>Use "Find Action" (<span class="keyseq"><kbd>⌘</kbd>+<kbd>⇧</kbd>+<kbd>A</kbd></span><span class="image"><img src="./images/apple.png" alt="apple" width="25px" height="25px"></span> / <span class="keyseq"><kbd>CTRL</kbd>+<kbd>SHIFT</kbd>+<kbd>A</kbd></span> <span class="image"><img src="./images/windows.png" alt="windows" width="25px" height="25px"></span><span class="image"><img src="./images/linux.png" alt="linux" width="25px" height="25px"></span> ) to run "Close All Tabs"</p>
 </li>
 <li>
-<p>Locate files quickly, and bring them up quickly, ready for you to edit using (<span class="keyseq"><kbd>⌘</kbd>+<kbd>⇧</kbd>+<kbd>O</kbd></span><span class="image"><img src="./images/apple.png" alt="apple" width="25px" height="25px"></span> / <span class="keyseq"><kbd>CTRL</kbd>+<kbd>N</kbd></span> <span class="image"><img src="./images/windows.png" alt="windows" width="25px" height="25px"></span>)</p>
+<p>Locate files quickly, and bring them up quickly, ready for you to edit using (<span class="keyseq"><kbd>⌘</kbd>+<kbd>⇧</kbd>+<kbd>O</kbd></span><span class="image"><img src="./images/apple.png" alt="apple" width="25px" height="25px"></span> / <span class="keyseq"><kbd>CTRL</kbd>+<kbd>N</kbd></span> <span class="image"><img src="./images/windows.png" alt="windows" width="25px" height="25px"></span><span class="image"><img src="./images/linux.png" alt="linux" width="25px" height="25px"></span> )</p>
 </li>
 <li>
-<p>Open <code>Deck</code> using (<span class="keyseq"><kbd>⌘</kbd>+<kbd>⇧</kbd>+<kbd>O</kbd></span><span class="image"><img src="./images/apple.png" alt="apple" width="25px" height="25px"></span> / <span class="keyseq"><kbd>CTRL</kbd>+<kbd>N</kbd></span> <span class="image"><img src="./images/windows.png" alt="windows" width="25px" height="25px"></span>)</p>
+<p>Open <code>Deck</code> using (<span class="keyseq"><kbd>⌘</kbd>+<kbd>⇧</kbd>+<kbd>O</kbd></span><span class="image"><img src="./images/apple.png" alt="apple" width="25px" height="25px"></span> / <span class="keyseq"><kbd>CTRL</kbd>+<kbd>N</kbd></span> <span class="image"><img src="./images/windows.png" alt="windows" width="25px" height="25px"></span><span class="image"><img src="./images/linux.png" alt="linux" width="25px" height="25px"></span> )</p>
 </li>
 <li>
-<p>Use "Find Symbol" (<span class="keyseq"><kbd>⌘</kbd>+<kbd>⌥</kbd>+<kbd>O</kbd></span><span class="image"><img src="./images/apple.png" alt="apple" width="25px" height="25px"></span> / <span class="keyseq"><kbd>CTRL</kbd>+<kbd>ALT</kbd>+<kbd>SHIFT</kbd>+<kbd>N</kbd></span> <span class="image"><img src="./images/windows.png" alt="windows" width="25px" height="25px"></span>) and locate <code>game.initialDeal</code></p>
+<p>Use "Find Symbol" (<span class="keyseq"><kbd>⌘</kbd>+<kbd>⌥</kbd>+<kbd>O</kbd></span><span class="image"><img src="./images/apple.png" alt="apple" width="25px" height="25px"></span> / <span class="keyseq"><kbd>CTRL</kbd>+<kbd>ALT</kbd>+<kbd>SHIFT</kbd>+<kbd>N</kbd></span> <span class="image"><img src="./images/windows.png" alt="windows" width="25px" height="25px"></span><span class="image"><img src="./images/linux.png" alt="linux" width="25px" height="25px"></span> ) and locate <code>game.initialDeal</code></p>
 </li>
 </ol>
 </div>
@@ -528,7 +527,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <p>Find all minor errors quickly with <kbd>F2</kbd></p>
 </li>
 <li>
-<p>Fix them using (<span class="keyseq"><kbd>⌥</kbd>+<kbd>⏎</kbd></span><span class="image"><img src="./images/apple.png" alt="apple" width="25px" height="25px"></span> / <span class="keyseq"><kbd>ALT</kbd>+<kbd>ENTER</kbd></span> <span class="image"><img src="./images/windows.png" alt="windows" width="25px" height="25px"></span>)</p>
+<p>Fix them using (<span class="keyseq"><kbd>⌥</kbd>+<kbd>⏎</kbd></span><span class="image"><img src="./images/apple.png" alt="apple" width="25px" height="25px"></span> / <span class="keyseq"><kbd>ALT</kbd>+<kbd>ENTER</kbd></span> <span class="image"><img src="./images/windows.png" alt="windows" width="25px" height="25px"></span><span class="image"><img src="./images/linux.png" alt="linux" width="25px" height="25px"></span> )</p>
 </li>
 </ol>
 </div>
@@ -540,7 +539,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div class="olist arabic">
 <ol class="arabic">
 <li>
-<p>Be sure to use (<span class="keyseq"><kbd>⌘</kbd>+<kbd>N</kbd></span><span class="image"><img src="./images/apple.png" alt="apple" width="25px" height="25px"></span> / <span class="keyseq"><kbd>ALT</kbd>+<kbd>INSERT</kbd></span> <span class="image"><img src="./images/windows.png" alt="windows" width="25px" height="25px"></span>) for creation of elements.</p>
+<p>Be sure to use (<span class="keyseq"><kbd>⌘</kbd>+<kbd>N</kbd></span><span class="image"><img src="./images/apple.png" alt="apple" width="25px" height="25px"></span> / <span class="keyseq"><kbd>ALT</kbd>+<kbd>INSERT</kbd></span> <span class="image"><img src="./images/windows.png" alt="windows" width="25px" height="25px"></span><span class="image"><img src="./images/linux.png" alt="linux" width="25px" height="25px"></span> ) for creation of elements.</p>
 </li>
 <li>
 <p>Create an enum in  <code>com/jitterted/ebp/blackjack</code> called <code>Currency</code> with the values <code>Dollar</code>, and <code>Euro</code>, for a challenge add the symbols <code>$</code> and <code>€</code></p>
@@ -552,7 +551,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <p>Create two fields, one <code>amount</code> of type <code>int</code>, and <code>currency</code> of type <code>Currency</code>, the <code>enum</code> that you created</p>
 </li>
 <li>
-<p>Add a <code>toString</code>, <code>equals</code>, and <code>hashCode</code> for <code>Chip</code> using (<span class="keyseq"><kbd>⌘</kbd>+<kbd>N</kbd></span><span class="image"><img src="./images/apple.png" alt="apple" width="25px" height="25px"></span> / <span class="keyseq"><kbd>ALT</kbd>+<kbd>INSERT</kbd></span> <span class="image"><img src="./images/windows.png" alt="windows" width="25px" height="25px"></span>)</p>
+<p>Add a <code>toString</code>, <code>equals</code>, and <code>hashCode</code> for <code>Chip</code> using (<span class="keyseq"><kbd>⌘</kbd>+<kbd>N</kbd></span><span class="image"><img src="./images/apple.png" alt="apple" width="25px" height="25px"></span> / <span class="keyseq"><kbd>ALT</kbd>+<kbd>INSERT</kbd></span> <span class="image"><img src="./images/windows.png" alt="windows" width="25px" height="25px"></span><span class="image"><img src="./images/linux.png" alt="linux" width="25px" height="25px"></span> )</p>
 </li>
 </ol>
 </div>
@@ -567,13 +566,13 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <p>Find the file <code>Game.java</code> using the techniques that we covered</p>
 </li>
 <li>
-<p>Go to the method <code>main</code>. Hint: You can quickly search methods by either  (<span class="keyseq"><kbd>⌘</kbd>+<kbd>F12</kbd></span><span class="image"><img src="./images/apple.png" alt="apple" width="25px" height="25px"></span> / <span class="keyseq"><kbd>CTRL</kbd>+<kbd>F12</kbd></span> <span class="image"><img src="./images/windows.png" alt="windows" width="25px" height="25px"></span>)</p>
+<p>Go to the method <code>main</code>. Hint: You can quickly search methods by either  (<span class="keyseq"><kbd>⌘</kbd>+<kbd>F12</kbd></span><span class="image"><img src="./images/apple.png" alt="apple" width="25px" height="25px"></span> / <span class="keyseq"><kbd>CTRL</kbd>+<kbd>F12</kbd></span> <span class="image"><img src="./images/windows.png" alt="windows" width="25px" height="25px"></span><span class="image"><img src="./images/linux.png" alt="linux" width="25px" height="25px"></span> )</p>
 </li>
 <li>
-<p>Highlight only the text <code>System.console().readLine()</code> using increase code selection <span class="keyseq"><kbd>⌥</kbd>+<kbd>↑</kbd></span> <span class="image"><img src="./images/apple.png" alt="apple" width="25px" height="25px"></span> / <span class="keyseq"><kbd>CTRL</kbd>+<kbd>W</kbd></span> <span class="image"><img src="./images/windows.png" alt="windows" width="25px" height="25px"></span>)</p>
+<p>Highlight only the text <code>System.console().readLine()</code> using increase code selection <span class="keyseq"><kbd>⌥</kbd>+<kbd>↑</kbd></span> <span class="image"><img src="./images/apple.png" alt="apple" width="25px" height="25px"></span> / <span class="keyseq"><kbd>CTRL</kbd>+<kbd>W</kbd></span> <span class="image"><img src="./images/windows.png" alt="windows" width="25px" height="25px"></span><span class="image"><img src="./images/linux.png" alt="linux" width="25px" height="25px"></span> )</p>
 </li>
 <li>
-<p>Now use surround block on the selection (<span class="keyseq"><kbd>⌘</kbd>+<kbd>⌥</kbd>+<kbd>T</kbd></span><span class="image"><img src="./images/apple.png" alt="apple" width="25px" height="25px"></span> / <span class="keyseq"><kbd>CTRL</kbd>+<kbd>ALT</kbd>+<kbd>T</kbd></span> <span class="image"><img src="./images/windows.png" alt="windows" width="25px" height="25px"></span>), and wrap it in a <code>try</code>/<code>catch</code>/<code>finally</code> block that will catch an <code>IOError</code> and print the <code>message</code> of the exception</p>
+<p>Now use surround block on the selection (<span class="keyseq"><kbd>⌘</kbd>+<kbd>⌥</kbd>+<kbd>T</kbd></span><span class="image"><img src="./images/apple.png" alt="apple" width="25px" height="25px"></span> / <span class="keyseq"><kbd>CTRL</kbd>+<kbd>ALT</kbd>+<kbd>T</kbd></span> <span class="image"><img src="./images/windows.png" alt="windows" width="25px" height="25px"></span><span class="image"><img src="./images/linux.png" alt="linux" width="25px" height="25px"></span>), and wrap it in a <code>try</code>/<code>catch</code>/<code>finally</code> block that will catch an <code>IOError</code> and print the <code>message</code> of the exception</p>
 </li>
 </ol>
 </div>
@@ -588,7 +587,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <p>Go to <code>Deck</code> and then go to the <code>size</code> method using the techniques that you&#8217;ve learned</p>
 </li>
 <li>
-<p>Which other methods are using this method? (<span class="keyseq"><kbd>⌘</kbd>+<kbd>B</kbd></span>, <span class="keyseq"><kbd>⌥</kbd>+<kbd>F7</kbd></span><span class="image"><img src="./images/apple.png" alt="apple" width="25px" height="25px"></span> / <span class="keyseq"><kbd>CTRL</kbd>+<kbd>B</kbd></span>, <span class="keyseq"><kbd>CTRL</kbd>+<kbd>F7</kbd></span> <span class="image"><img src="./images/windows.png" alt="windows" width="25px" height="25px"></span>)</p>
+<p>Which other methods are using this method? (<span class="keyseq"><kbd>⌘</kbd>+<kbd>B</kbd></span>, <span class="keyseq"><kbd>⌥</kbd>+<kbd>F7</kbd></span><span class="image"><img src="./images/apple.png" alt="apple" width="25px" height="25px"></span> / <span class="keyseq"><kbd>CTRL</kbd>+<kbd>B</kbd></span>, <span class="keyseq"><kbd>CTRL</kbd>+<kbd>F7</kbd></span> <span class="image"><img src="./images/windows.png" alt="windows" width="25px" height="25px"></span><span class="image"><img src="./images/linux.png" alt="linux" width="25px" height="25px"></span> )</p>
 </li>
 <li>
 <p>Jump to one of the methods that uses <code>size</code></p>
@@ -606,7 +605,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div class="olist arabic">
 <ol class="arabic">
 <li>
-<p>Make <code>main</code> the last method using (<span class="keyseq"><kbd>⇧</kbd>+<kbd>⌘</kbd>+<kbd>↑↓</kbd></span><span class="image"><img src="./images/apple.png" alt="apple" width="25px" height="25px"></span> / <span class="keyseq"><kbd>CTRL</kbd>+<kbd>SHIFT</kbd>+<kbd>UP/DOWN</kbd></span> <span class="image"><img src="./images/windows.png" alt="windows" width="25px" height="25px"></span>)</p>
+<p>Make <code>main</code> the last method using (<span class="keyseq"><kbd>⇧</kbd>+<kbd>⌘</kbd>+<kbd>↑↓</kbd></span><span class="image"><img src="./images/apple.png" alt="apple" width="25px" height="25px"></span> / <span class="keyseq"><kbd>CTRL</kbd>+<kbd>SHIFT</kbd>+<kbd>UP/DOWN</kbd></span> <span class="image"><img src="./images/windows.png" alt="windows" width="25px" height="25px"></span><span class="image"><img src="./images/linux.png" alt="linux" width="25px" height="25px"></span> )</p>
 </li>
 <li>
 <p>Rearrange the other methods to your liking</p>
@@ -645,7 +644,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div class="olist arabic">
 <ol class="arabic">
 <li>
-<p>Run the main method in <code>Game</code> using the keyboard</p>
+<p>Run the <code>main</code> method in <code>Game</code> using the keyboard</p>
 </li>
 <li>
 <p>Open <code>CardTest</code> and run <code>withValueOfQueenHasNumericValueOf10</code> only</p>
@@ -681,19 +680,22 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div class="olist arabic">
 <ol class="arabic">
 <li>
-<p>Go to <code>Card</code> using the toggle</p>
+<p>Go to <code>Card</code></p>
 </li>
 <li>
-<p>Go back to <code>CardTest</code></p>
+<p>Go back to <code>CardTest</code> using the toggle, (<span class="keyseq"><kbd>⌘</kbd>+<kbd>SHIFT</kbd>+<kbd>T</kbd></span><span class="image"><img src="./images/apple.png" alt="apple" width="25px" height="25px"></span> / <span class="keyseq"><kbd>CTRL</kbd>+<kbd>SHIFT</kbd>+<kbd>T</kbd></span> <span class="image"><img src="./images/windows.png" alt="windows" width="25px" height="25px"></span><span class="image"><img src="./images/linux.png" alt="linux" width="25px" height="25px"></span> )</p>
 </li>
 <li>
-<p>Go back to <code>Card</code></p>
+<p>Go back to <code>Card</code> using the toggle, (<span class="keyseq"><kbd>⌘</kbd>+<kbd>SHIFT</kbd>+<kbd>T</kbd></span><span class="image"><img src="./images/apple.png" alt="apple" width="25px" height="25px"></span> / <span class="keyseq"><kbd>CTRL</kbd>+<kbd>SHIFT</kbd>+<kbd>T</kbd></span> <span class="image"><img src="./images/windows.png" alt="windows" width="25px" height="25px"></span><span class="image"><img src="./images/linux.png" alt="linux" width="25px" height="25px"></span> )</p>
 </li>
 <li>
-<p>Create a test called <code>WalletTest</code>, remember (<span class="keyseq"><kbd>⌘</kbd>+<kbd>N</kbd></span><span class="image"><img src="./images/apple.png" alt="apple" width="25px" height="25px"></span> / <span class="keyseq"><kbd>ALT</kbd>+<kbd>INSERT</kbd></span> <span class="image"><img src="./images/windows.png" alt="windows" width="25px" height="25px"></span>)?</p>
+<p>Create a test called <code>WalletTest</code>, remember (<span class="keyseq"><kbd>⌘</kbd>+<kbd>N</kbd></span><span class="image"><img src="./images/apple.png" alt="apple" width="25px" height="25px"></span> / <span class="keyseq"><kbd>ALT</kbd>+<kbd>INSERT</kbd></span> <span class="image"><img src="./images/windows.png" alt="windows" width="25px" height="25px"></span><span class="image"><img src="./images/linux.png" alt="linux" width="25px" height="25px"></span> )?</p>
 </li>
 <li>
-<p>Create a test called <code>walletHasZeroBalance</code> and create a <code>Wallet</code></p>
+<p>Create a test method called <code>walletHasZeroBalance</code> method (<span class="keyseq"><kbd>⌘</kbd>+<kbd>N</kbd></span><span class="image"><img src="./images/apple.png" alt="apple" width="25px" height="25px"></span> / <span class="keyseq"><kbd>ALT</kbd>+<kbd>INSERT</kbd></span> <span class="image"><img src="./images/windows.png" alt="windows" width="25px" height="25px"></span><span class="image"><img src="./images/linux.png" alt="linux" width="25px" height="25px"></span> ). In the test, implement a test that creates a <code>Wallet</code> that returns a <code>balance</code>. Assert that the <code>balance</code> is <code>0</code>.</p>
+</li>
+<li>
+<p>Use (<span class="keyseq"><kbd>⌥</kbd>+<kbd>⏎</kbd></span><span class="image"><img src="./images/apple.png" alt="apple" width="25px" height="25px"></span> / <span class="keyseq"><kbd>ALT</kbd>+<kbd>ENTER</kbd></span> <span class="image"><img src="./images/windows.png" alt="windows" width="25px" height="25px"></span><span class="image"><img src="./images/linux.png" alt="linux" width="25px" height="25px"></span> ) to create a <code>Wallet</code>.</p>
 </li>
 </ol>
 </div>
@@ -705,34 +707,19 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div class="olist arabic">
 <ol class="arabic">
 <li>
-<p>Go to <code>HandValueAceTest</code> and the <code>handWithOneAce</code> method</p>
+<p>Go to <code>HandValueAceTest</code> and the <code>handWithOneAce</code> method using the techniques that we coverd</p>
 </li>
 <li>
-<p>Put a breakpoint on the <code>assertThat(game.handValueOf(cards)).isEqualTo(11 + 5);</code><strong>CMD+F8</strong></p>
+<p>Put a breakpoint on the <code>assertThat(game.handValueOf(cards)).isEqualTo(11 + 5);</code> (<span class="keyseq"><kbd>⌘</kbd>+<kbd>F8</kbd></span><span class="image"><img src="./images/apple.png" alt="apple" width="25px" height="25px"></span> / <span class="keyseq"><kbd>CTRL</kbd>+<kbd>F8</kbd></span> <span class="image"><img src="./images/windows.png" alt="windows" width="25px" height="25px"></span><span class="image"><img src="./images/linux.png" alt="linux" width="25px" height="25px"></span>)</p>
 </li>
 <li>
-<p>Debug the method <strong>CTRL+SHIFT+D</strong>, what are the contents of cards?</p>
+<p>Debug the method (<span class="keyseq"><kbd>⌃</kbd>+<kbd>⇧</kbd>+<kbd>D</kbd></span><span class="image"><img src="./images/apple.png" alt="apple" width="25px" height="25px"></span> / <span class="keyseq"><kbd>CTRL</kbd>+<kbd>SHIFT</kbd>+<kbd>F9</kbd></span> <span class="image"><img src="./images/windows.png" alt="windows" width="25px" height="25px"></span><span class="image"><img src="./images/linux.png" alt="linux" width="25px" height="25px"></span>), what are the contents of cards?</p>
 </li>
 <li>
 <p>Stop the debugging session</p>
 </li>
 <li>
 <p>Remove the breakpoint</p>
-</li>
-<li>
-<p>Go to <code>displayHand</code> in the most efficient way possible</p>
-</li>
-<li>
-<p>Toggle the breakpoint in on the <code>map</code> call</p>
-</li>
-<li>
-<p>Run the Debugger</p>
-</li>
-<li>
-<p>Turn on the Stream Debugger</p>
-</li>
-<li>
-<p>View the Stream Debugger</p>
 </li>
 </ol>
 </div>
@@ -750,41 +737,17 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <p>Highlight the lines the first round of cards into a method call dealRound in the method using the blob</p>
 </li>
 <li>
-<p>Make it so that the it is called twice</p>
+<p>Make it so that it is called twice</p>
 </li>
 <li>
 <p>Extract another method in the first part of the main method from <code>AnsiConsole.systemInstall()</code> to <code>Hit Enter to Start</code> and create a method called display welcome screen</p>
 </li>
-<li>
-<p>View Demo on Refactoring Rank, do the same for Suit!</p>
-</li>
 </ol>
 </div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_lab_13_advanced_refactoring">Lab 13: Advanced Refactoring</h2>
-<div class="sectionbody">
-<div class="olist arabic">
-<ol class="arabic">
-<li>
-<p>Move that method to a class</p>
-</li>
-<li>
-<p>Use the <strong>Make Static</strong> refactoring</p>
-</li>
-<li>
-<p>Static Manuevering to class</p>
-</li>
-<li>
-<p>Create a display game, attempt to perform some refactoring for game and move everything that should be in game</p>
-</li>
-</ol>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_lab_14_hey_emmett">Lab 14: Hey Emmett!</h2>
+<h2 id="_lab_13_hey_emmett">Lab 13: Hey Emmett!</h2>
 <div class="sectionbody">
 <div class="olist arabic">
 <ol class="arabic">
@@ -814,7 +777,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 </div>
 <div class="sect1">
-<h2 id="_lab_15_live_templates">Lab 15: Live Templates</h2>
+<h2 id="_lab_14_live_templates">Lab 14: Live Templates</h2>
 <div class="sectionbody">
 <div class="olist arabic">
 <ol class="arabic">
@@ -843,7 +806,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2023-03-18 09:50:52 -0600
+Last updated 2023-03-18 11:23:06 -0600
 </div>
 </div>
 </body>

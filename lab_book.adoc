@@ -20,50 +20,50 @@ Daniel Hinojosa
 
 . Open the *Project* tool, Close the *Project* Tool
 . Open the *Run* tool, keep it open. Go to the Editor, remember kbd:[ESC]!
-. Maximize the editor (kbd:[⌘+⇧+F12]image:../images/apple.png[width=25px, height=25px] / kbd:[CTRL+SHIFT+F12] image:../images/windows.png[width=25px, height=25px])
-. Run `mvn compile` quickly, both by going to the Maven tool window kbd:[⌘+E] image:../images/apple.png[width=25px, height=25px]/ kbd:[CTRL+E]/image:../images/windows.png[width=25px, height=25px], select the *Maven* tool, and select *compile*
+. Maximize the editor (kbd:[⌘+⇧+F12]image:../images/apple.png[width=25px, height=25px] / kbd:[CTRL+SHIFT+F12] image:../images/windows.png[width=25px, height=25px]image:../images/linux.png[width=25px, height=25px])
+. Run `mvn compile` quickly, both by going to the Maven tool window kbd:[⌘+E] image:../images/apple.png[width=25px, height=25px]/ kbd:[CTRL+E]/image:../images/windows.png[width=25px, height=25px]image:../images/linux.png[width=25px, height=25px] , select the *Maven* tool, and select *compile*
 . Close all tool windows
-. Close all the tabs through either kbd:[Shift+Shift] or (kbd:[⌘+⇧+A]image:../images/apple.png[width=25px, height=25px] / kbd:[CTRL+SHIFT+A] image:../images/windows.png[width=25px, height=25px])
+. Close all the tabs through either kbd:[Shift+Shift] or (kbd:[⌘+⇧+A]image:../images/apple.png[width=25px, height=25px] / kbd:[CTRL+SHIFT+A] image:../images/windows.png[width=25px, height=25px]image:../images/linux.png[width=25px, height=25px] )
 . Run `mvn test` using `Run Anything` using kbd:[Ctrl+Ctrl]
 
 == Lab 2: Find your file without your mouse
 
-. Use "Find Action" (kbd:[⌘+⇧+A]image:../images/apple.png[width=25px, height=25px] / kbd:[CTRL+SHIFT+A] image:../images/windows.png[width=25px, height=25px]) to run "Close All Tabs"
-. Locate files quickly, and bring them up quickly, ready for you to edit using (kbd:[⌘+⇧+O]image:../images/apple.png[width=25px, height=25px] / kbd:[CTRL+N] image:../images/windows.png[width=25px, height=25px])
-. Open `Deck` using (kbd:[⌘+⇧+O]image:../images/apple.png[width=25px, height=25px] / kbd:[CTRL+N] image:../images/windows.png[width=25px, height=25px])
-. Use "Find Symbol" (kbd:[⌘+⌥+O]image:../images/apple.png[width=25px, height=25px] / kbd:[CTRL+ALT+SHIFT+N] image:../images/windows.png[width=25px, height=25px]) and locate `game.initialDeal`
+. Use "Find Action" (kbd:[⌘+⇧+A]image:../images/apple.png[width=25px, height=25px] / kbd:[CTRL+SHIFT+A] image:../images/windows.png[width=25px, height=25px]image:../images/linux.png[width=25px, height=25px] ) to run "Close All Tabs"
+. Locate files quickly, and bring them up quickly, ready for you to edit using (kbd:[⌘+⇧+O]image:../images/apple.png[width=25px, height=25px] / kbd:[CTRL+N] image:../images/windows.png[width=25px, height=25px]image:../images/linux.png[width=25px, height=25px] )
+. Open `Deck` using (kbd:[⌘+⇧+O]image:../images/apple.png[width=25px, height=25px] / kbd:[CTRL+N] image:../images/windows.png[width=25px, height=25px]image:../images/linux.png[width=25px, height=25px] )
+. Use "Find Symbol" (kbd:[⌘+⌥+O]image:../images/apple.png[width=25px, height=25px] / kbd:[CTRL+ALT+SHIFT+N] image:../images/windows.png[width=25px, height=25px]image:../images/linux.png[width=25px, height=25px] ) and locate `game.initialDeal`
 
 == Lab 3: Find the Errors
 
 . Go to `DeckTest` using the techniques we covered previously
 . Find all minor errors quickly with kbd:[F2]
-. Fix them using (kbd:[⌥+⏎]image:../images/apple.png[width=25px, height=25px] / kbd:[ALT+ENTER] image:../images/windows.png[width=25px, height=25px])
+. Fix them using (kbd:[⌥+⏎]image:../images/apple.png[width=25px, height=25px] / kbd:[ALT+ENTER] image:../images/windows.png[width=25px, height=25px]image:../images/linux.png[width=25px, height=25px] )
 
 == Lab 4: Create the files quickly without your mouse and efficiently
 
-. Be sure to use (kbd:[⌘+N]image:../images/apple.png[width=25px, height=25px] / kbd:[ALT+INSERT] image:../images/windows.png[width=25px, height=25px]) for creation of elements.
+. Be sure to use (kbd:[⌘+N]image:../images/apple.png[width=25px, height=25px] / kbd:[ALT+INSERT] image:../images/windows.png[width=25px, height=25px]image:../images/linux.png[width=25px, height=25px] ) for creation of elements.
 . Create an enum in  `com/jitterted/ebp/blackjack` called `Currency` with the values `Dollar`, and `Euro`, for a challenge add the symbols `$` and `€`
 . Now we will create a Java class in the `com/jitterted/ebp/blackjack` called `Chip`
 . Create two fields, one `amount` of type `int`, and `currency` of type `Currency`, the `enum` that you created
-. Add a `toString`, `equals`, and `hashCode` for `Chip` using (kbd:[⌘+N]image:../images/apple.png[width=25px, height=25px] / kbd:[ALT+INSERT] image:../images/windows.png[width=25px, height=25px])
+. Add a `toString`, `equals`, and `hashCode` for `Chip` using (kbd:[⌘+N]image:../images/apple.png[width=25px, height=25px] / kbd:[ALT+INSERT] image:../images/windows.png[width=25px, height=25px]image:../images/linux.png[width=25px, height=25px] )
 
 == Lab 5: Using the blob!
 
 . Find the file `Game.java` using the techniques that we covered
-. Go to the method `main`. Hint: You can quickly search methods by either  (kbd:[⌘+F12]image:../images/apple.png[width=25px, height=25px] / kbd:[CTRL+F12] image:../images/windows.png[width=25px, height=25px])
-. Highlight only the text `System.console().readLine()` using increase code selection kbd:[⌥+↑] image:../images/apple.png[width=25px, height=25px] / kbd:[CTRL+W] image:../images/windows.png[width=25px, height=25px])
-. Now use surround block on the selection (kbd:[⌘+⌥+T]image:../images/apple.png[width=25px, height=25px] / kbd:[CTRL+ALT+T] image:../images/windows.png[width=25px, height=25px]), and wrap it in a `try`/`catch`/`finally` block that will catch an `IOError` and print the `message` of the exception
+. Go to the method `main`. Hint: You can quickly search methods by either  (kbd:[⌘+F12]image:../images/apple.png[width=25px, height=25px] / kbd:[CTRL+F12] image:../images/windows.png[width=25px, height=25px]image:../images/linux.png[width=25px, height=25px] )
+. Highlight only the text `System.console().readLine()` using increase code selection kbd:[⌥+↑] image:../images/apple.png[width=25px, height=25px] / kbd:[CTRL+W] image:../images/windows.png[width=25px, height=25px]image:../images/linux.png[width=25px, height=25px] )
+. Now use surround block on the selection (kbd:[⌘+⌥+T]image:../images/apple.png[width=25px, height=25px] / kbd:[CTRL+ALT+T] image:../images/windows.png[width=25px, height=25px]image:../images/linux.png[width=25px, height=25px]), and wrap it in a `try`/`catch`/`finally` block that will catch an `IOError` and print the `message` of the exception
 
 == Lab 6: Go to Implementations and Usages
 
 . Go to `Deck` and then go to the `size` method using the techniques that you've learned
-. Which other methods are using this method? (kbd:[⌘+B], kbd:[⌥+F7]image:../images/apple.png[width=25px, height=25px] / kbd:[CTRL+B], kbd:[CTRL+F7] image:../images/windows.png[width=25px, height=25px])
+. Which other methods are using this method? (kbd:[⌘+B], kbd:[⌥+F7]image:../images/apple.png[width=25px, height=25px] / kbd:[CTRL+B], kbd:[CTRL+F7] image:../images/windows.png[width=25px, height=25px]image:../images/linux.png[width=25px, height=25px] )
 . Jump to one of the methods that uses `size`
 . Go to `Game` and then go the constructor of `Game`, from here go to the implementation of `Deck`
 
 == Lab 7: Moving Code
 
-. Make `main` the last method using (kbd:[⇧ + ⌘ + ↑↓]image:../images/apple.png[width=25px, height=25px] / kbd:[CTRL+SHIFT+UP/DOWN] image:../images/windows.png[width=25px, height=25px])
+. Make `main` the last method using (kbd:[⇧ + ⌘ + ↑↓]image:../images/apple.png[width=25px, height=25px] / kbd:[CTRL+SHIFT+UP/DOWN] image:../images/windows.png[width=25px, height=25px]image:../images/linux.png[width=25px, height=25px] )
 . Rearrange the other methods to your liking
 
 == Lab 8: Documentation and Info
@@ -76,7 +76,7 @@ Daniel Hinojosa
 
 == Lab 9: Efficient Running and Testing
 
-. Run the main method in `Game` using the keyboard
+. Run the `main` method in `Game` using the keyboard
 . Open `CardTest` and run `withValueOfQueenHasNumericValueOf10` only
 . Go to the `Card` class
 . Run `withValueOfQueenHasNumericValueOf10` but don't go back to the `CardTest`!
@@ -88,42 +88,29 @@ Daniel Hinojosa
 
 == Lab 10: Toggling your Test
 
-. Go to `Card` using the toggle
-. Go back to `CardTest`
-. Go back to `Card`
-. Create a test called `WalletTest`, remember (kbd:[⌘+N]image:../images/apple.png[width=25px, height=25px] / kbd:[ALT+INSERT] image:../images/windows.png[width=25px, height=25px])?
-. Create a test called `walletHasZeroBalance` and create a `Wallet`
+. Go to `Card`
+. Go back to `CardTest` using the toggle, (kbd:[⌘+SHIFT+T]image:../images/apple.png[width=25px, height=25px] / kbd:[CTRL+SHIFT+T] image:../images/windows.png[width=25px, height=25px]image:../images/linux.png[width=25px, height=25px] )
+. Go back to `Card` using the toggle, (kbd:[⌘+SHIFT+T]image:../images/apple.png[width=25px, height=25px] / kbd:[CTRL+SHIFT+T] image:../images/windows.png[width=25px, height=25px]image:../images/linux.png[width=25px, height=25px] )
+. Create a test called `WalletTest`, remember (kbd:[⌘+N]image:../images/apple.png[width=25px, height=25px] / kbd:[ALT+INSERT] image:../images/windows.png[width=25px, height=25px]image:../images/linux.png[width=25px, height=25px] )?
+. Create a test method called `walletHasZeroBalance` method (kbd:[⌘+N]image:../images/apple.png[width=25px, height=25px] / kbd:[ALT+INSERT] image:../images/windows.png[width=25px, height=25px]image:../images/linux.png[width=25px, height=25px] ). In the test, implement a test that creates a `Wallet` that returns a `balance`. Assert that the `balance` is `0`.
+. Use (kbd:[⌥+⏎]image:../images/apple.png[width=25px, height=25px] / kbd:[ALT+ENTER] image:../images/windows.png[width=25px, height=25px]image:../images/linux.png[width=25px, height=25px] ) to create a `Wallet`.
 
 == Lab 11: Debugging
 
-. Go to `HandValueAceTest` and the `handWithOneAce` method
-. Put a breakpoint on the `assertThat(game.handValueOf(cards)).isEqualTo(11 + 5);`*CMD+F8*
-. Debug the method *CTRL+SHIFT+D*, what are the contents of cards?
+. Go to `HandValueAceTest` and the `handWithOneAce` method using the techniques that we coverd
+. Put a breakpoint on the `assertThat(game.handValueOf(cards)).isEqualTo(11 + 5);` (kbd:[⌘+F8]image:../images/apple.png[width=25px, height=25px] / kbd:[CTRL+F8] image:../images/windows.png[width=25px, height=25px]image:../images/linux.png[width=25px, height=25px])
+. Debug the method (kbd:[⌃+⇧+D]image:../images/apple.png[width=25px, height=25px] / kbd:[CTRL+SHIFT+F9] image:../images/windows.png[width=25px, height=25px]image:../images/linux.png[width=25px, height=25px]), what are the contents of cards?
 . Stop the debugging session
 . Remove the breakpoint
-
-. Go to `displayHand` in the most efficient way possible
-. Toggle the breakpoint in on the `map` call
-. Run the Debugger
-. Turn on the Stream Debugger
-. View the Stream Debugger
 
 == Lab 12: Refactoring
 
 . Go to initial deal method in main
 . Highlight the lines the first round of cards into a method call dealRound in the method using the blob
-. Make it so that the it is called twice
+. Make it so that it is called twice
 . Extract another method in the first part of the main method from `AnsiConsole.systemInstall()` to `Hit Enter to Start` and create a method called display welcome screen
-. View Demo on Refactoring Rank, do the same for Suit!
 
-== Lab 13: Advanced Refactoring
-
-. Move that method to a class
-. Use the *Make Static* refactoring
-. Static Manuevering to class
-. Create a display game, attempt to perform some refactoring for game and move everything that should be in game
-
-== Lab 14: Hey Emmett!
+== Lab 13: Hey Emmett!
 
 . Open the Emmett cheatsheet: https://docs.emmet.io/cheat-sheet/
 . Create a resources folder in `src/main` and add a file called _index.html_, if one is not already created.
@@ -133,7 +120,7 @@ Daniel Hinojosa
 . Find other creative Emmet combinations using the cheat sheet
 . Try your hand at styles by creating _styles.css_
 
-== Lab 15: Live Templates
+== Lab 14: Live Templates
 
 . Create a Live template for yourself
 . Are there some classes that you create? Perhaps a standard way to do log files?
