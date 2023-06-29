@@ -13,11 +13,8 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-
     <maven.compiler.release>11</maven.compiler.release>
-
     <maven.jar.plugin.version>3.2.0</maven.jar.plugin.version>
-
     <assertj.version>3.23.1</assertj.version>
     <junit.version>5.8.2</junit.version>
     <jansi.version>2.4.0</jansi.version>
