@@ -3,21 +3,16 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-
   <groupId>com.jitterted.ebp</groupId>
-  <artifactId>blackjack</artifactId>
+  <artifactId>intellij-dojo-workshop</artifactId>
   <version>1.0.1</version>
   <packaging>jar</packaging>
-
   <name>Blackjack Game</name>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-
     <maven.compiler.release>11</maven.compiler.release>
-
     <maven.jar.plugin.version>3.2.0</maven.jar.plugin.version>
-
     <assertj.version>3.23.1</assertj.version>
     <junit.version>5.8.2</junit.version>
     <jansi.version>2.4.0</jansi.version>
@@ -48,7 +43,6 @@
       <version>${assertj.version}</version>
       <scope>test</scope>
     </dependency>
-
   </dependencies>
 
   <build>
