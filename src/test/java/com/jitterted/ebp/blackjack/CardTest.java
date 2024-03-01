@@ -6,7 +6,6 @@ import static org.assertj.core.api.Assertions.*;
 import static org.fusesource.jansi.Ansi.ansi;
 
 class CardTest {
-
     @Test
     public void withNumberCardHasNumericValueOfTheNumber() throws Exception {
         Card card = new Card("don't care", "7");
@@ -26,7 +25,6 @@ class CardTest {
     @Test
     public void withAceHasNumericValueOf1() throws Exception {
         Card card = new Card("don't care", "A");
-
         assertThat(card.rankValue())
                 .isEqualTo(1);
     }
