@@ -8,10 +8,10 @@ import static org.fusesource.jansi.Ansi.ansi;
 class CardTest {
     @Test
     public void withNumberCardHasNumericValueOfTheNumber() throws Exception {
-        Card card = new Card("don't care", "7");
+        Card card = new Card("don't care", "8");
 
         assertThat(card.rankValue())
-                .isEqualTo(7);
+                .isEqualTo(8);
     }
 
     @Test
