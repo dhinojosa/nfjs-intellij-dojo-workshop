@@ -1,0 +1,5 @@
+### Australia Geography Data
+GET https://raw.githubusercontent.com/mledoze/countries/refs/heads/master/data/aus.geo.json
+
+### Congo Geography Data
+GET https://raw.githubusercontent.com/mledoze/countries/refs/heads/master/data/cog.geo.json
